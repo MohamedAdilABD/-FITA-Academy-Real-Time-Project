@@ -1,0 +1,176 @@
+/* --------- Testmonial ----------- */
+
+
+.testimonial-row
+.card
+{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.testimonial-row
+.card:hover
+{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+
+
+
+
+/* ------------  Testimonial Detailes -------------- */
+
+
+.test {
+    padding: 20px;
+}
+
+.test
+.carousel-wrapper {
+    position: relative;
+}
+
+.test
+.carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: gray;
+    color: white;
+    border: none;
+    cursor: pointer;
+    z-index: 10;
+    padding: 8px;
+    border-radius: 50%;
+}
+
+.test
+.carousel-button.left {
+    left: 10px;
+}
+
+.test
+.carousel-button.right {
+    right: 10px;
+}
+
+.test
+.testimonial-row {
+    display: flex;
+    flex-wrap: nowrap; 
+    overflow: hidden; 
+}
+
+.test
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.2s;
+    /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); */
+    height: 400px;
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.test
+.card:hover {
+    transform: scale(1.02);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.test
+.card-title {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+
+.test
+.quote {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #f39c12; 
+}
+
+.test
+.star {
+    color: #f39c12;
+}
+
+.test
+.card-body {
+    padding: 15px;
+    flex: 1;
+}
+
+.test
+.card-footer {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-top: 1px solid #ddd;
+}
+
+.test
+.card-img-end {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.test
+.details {
+    margin-left: 10px;
+}
+
+/* Carousel Indicators */
+.test
+.indicators {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.test
+.indicator {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ddd;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.test
+.indicator.active {
+    background-color: #f39c12; /* Active indicator color */
+}
+
+@media (max-width: 767px) {
+    .test
+    .testimonial-row {
+        flex-wrap: wrap; 
+    }
+
+    .test
+    .card {
+        flex: 0 0 100%; 
+        max-width: 100%; 
+        margin-bottom: 15px;
+    }
+}
+
+@media (min-width: 768px) {
+    .test
+    .card {
+        flex: 0 0 calc(25% - 15px); 
+        margin-right: 15px; 
+    }
+
+    .test
+    .card:last-child {
+        margin-right: 0; 
+    }
+}

@@ -1,0 +1,62 @@
+@media (max-width:600px) {
+    .place
+    {
+        
+        margin-top: 80px;
+    }
+    
+}
+
+
+.place {
+    margin-top: 0.5rem;
+  }
+  
+  .congratulation-card {
+    border: none;
+    transition: transform 0.3s, box-shadow 0.3s;
+    border-radius: 10px;
+    overflow: hidden;
+    /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpxxz92Dv3XdBa0HJ1G4JdiWpTOmxGYGrDkA&s"); */
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQbFNxbl98S-UQ2Gw1fSNBHpRIOPGg8m_7T8kwdLl5L8_54qertatZ8W24ThbMb40KyBc&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;   
+  }
+  
+  .congratulation-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-hover-effect {
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .placement-details {
+    border-radius: 5px;
+    padding: 15px;
+    /* background-color: #f8f9fa; */
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+    background-color: rgb(54,188,189);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+
+  }
+
+  .placement-details:hover
+  {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+  
+ .place h1, h5 {
+    color: #333;
+  }
+  
+  h1 {
+    font-weight: bold;
+  }
+  
+  h5 {
+    margin-bottom: 1.5rem;
+    color: #555;
+  }

@@ -1,0 +1,63 @@
+/* TestimonialSign.css */
+.signtest {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.signtest
+.form {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px; 
+}
+
+.signtest
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: purple;
+}
+
+.signtest
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.signtest
+input[type="text"],
+textarea,
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+ .signtest
+.btn:hover {
+    background-color: green;
+    color: white;
+} 
+
+/* Responsive styles */
+@media (max-width: 480px) {
+    .signtest
+    .container {
+        padding: 10px; 
+    }
+
+    .signtest
+    .form {
+        padding: 15px; 
+    }
+}

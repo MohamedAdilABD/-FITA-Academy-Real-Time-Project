@@ -1,0 +1,204 @@
+.navbar-custom {
+    background-color: #343a40;
+    height: 90px;
+    padding: 0;
+    margin-top: 0;
+}
+
+.navbar-custom .navbar-brand {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-custom .navbar-collapse {
+    margin-bottom: 25px;
+}
+
+.navbar-custom .nav-link {
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-right: 20px;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+.navbar-custom .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+
+.custom-button {
+    border: 1px solid transparent;
+    transition: background-color 0.3s, border-color 0.3s, box-shadow 0.3s;
+}
+
+.custom-button:hover {
+    background-color: #0056b3;
+    border-color: #00408d;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+}
+
+.custom-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.4rem rgba(0, 123, 255, 0.5);
+    border-color: #00408d;
+}
+
+.custom-button:active {
+    background-color: #00408d;
+    border-color: #003366;
+}
+
+.logo {
+    border-radius: 10px;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url('data:image/svg+xml;charset=utf8,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"%3E%3Cpath stroke="%23ffffff" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"/%3E%3C/svg%3E');
+}
+
+.navbar-toggler {
+    border-color: transparent;
+    background-color: black;
+}
+
+/* Responsive Styles */
+
+@media (min-width: 300px) and (max-width: 599px) {
+    .navbar-custom {
+        height: 120px;
+    }
+
+    .navbar-custom .logo
+    {
+        width: 80px; /* Logo size for small screens */
+        height: 50px; /* Maintain aspect ratio */
+        margin-bottom: 30px; /* Add bottom margin */
+        display: block; /* Ensure logo takes full width */
+        margin-left: auto; /* Center the logo */
+        margin-right: auto; /* Center the logo */
+        margin-top: 0;
+    }
+    
+
+
+    .navbar-collapse {
+        text-align: center;
+        background-color: #343a40;
+        padding: 0;
+  
+        
+    }
+
+    .custom-toggler
+    {
+        margin-bottom: 30px;
+      
+    }
+
+    .nav-link {
+        display: inline-block;
+
+        margin-left: 15px;
+    }
+
+    .custom-button {
+        margin: 0 0.5rem;
+    }
+
+    /* .logo {
+        width: 70px;
+        height: 40px;
+    } */
+}
+
+@media (min-width: 600px) and (max-width: 768px) {
+    .navbar-custom {
+        height: 120px;
+    }
+
+    .navbar-collapse {
+        background-color: #343a40;
+        text-align: center;
+     
+    }
+
+    .nav-link {
+        display: block;
+        margin: 0.5rem 0;
+    }
+
+    .custom-button {
+        width: 100%;
+        margin: 0.5rem 0;
+    }
+
+    .logo {
+        width: 80px;
+        height: 50px;
+        margin-right: 20px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+    .navbar-custom {
+        height: 130px;
+    }
+
+    .navbar-collapse {
+        text-align: center;
+        background-color: black;
+    }
+
+    .nav-link {
+        display: inline-block;
+        margin: 0 0.5rem;
+    }
+
+    .custom-button {
+        margin: 0 0.5rem;
+    }
+
+    .logo {
+        width: 90px;
+        height: 50px;
+    }
+}
+
+@media (min-width: 993px) and (max-width: 1436px) {
+    .navbar-custom {
+        height: 140px;
+    }
+
+    .navbar-collapse {
+        text-align: center;
+        background-color: #343a40;
+    }
+
+    .nav-link {
+        display: inline-block;
+        margin: 0 0.5rem;
+    }
+
+    .custom-button {
+        margin: 0 0.5rem;
+    }
+
+    .logo {
+        width: 90px;
+        height: 50px;
+    }
+}
+
+.icon-size {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.dropdown-item {
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+}
